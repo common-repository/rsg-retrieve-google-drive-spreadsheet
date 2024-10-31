@@ -1,0 +1,137 @@
+/*!
+  * RSGGDS v0.0.1
+  * Copyright 2019 Ryner S. Galaus (https://profiles.wordpress.org/rynergalaus)
+*/
+.rsg-addons_page_rsggds{background:#2b2b2b;font-family:Georgia,"Times New Roman",Times,serif;color:#fff;font-size:15px}
+.rsggds_table_cotain{max-width:1200px;max-height:500px;border-radius:4px;height:100%;width:100%;margin:auto!important;overflow-y:auto;overflow-x:hidden;position:relative}
+.rsggds_table_cotain::-webkit-scrollbar{width:5px;background:#222}
+.rsggds_table_cotain::-webkit-scrollbar-track{background:0 0;background-color:none;box-shadow:none;-webkit-box-shadow:none;border-radius:100%}
+.rsggds_table_cotain::-webkit-scrollbar-thumb{background:#ddd;border-radius:5px}
+.rsggds_table_cotain::-webkit-scrollbar-thumb:hover{background:#ddd}
+table.rsggds_table_contents{width:100%;background:#fff;color:#2b2b2b;margin:auto;position:relative}
+table.rsggds_table_contents td{padding:8px!important;transition:ease .4s;-webkit-transition:ease .4s;border:0;border-bottom:1px solid #eee;position:relative}
+table.rsggds_table_contents thead td{padding:15px!important;border:0!important}
+table.rsggds_table_contents td:focus{outline:0!important;outline:unset!important}
+table.rsggds_table_contents thead tr:first-child{background:#eee;font-size:20px;font-weight:700}
+table.rsggds_table_contents thead td:hover{cursor:pointer;color:#006799;transition:ease .4s;-webkit-transition:ease .4s}
+table.rsggds_table_contents thead td div{position:relative}
+table.rsggds_table_contents tbody tr td{transition:ease .3s;-webkit-transition:ease .3s;font-weight:500;font-size:16px}
+table.rsggds_table_contents tbody tr:hover td{transition:ease .3s;-webkit-transition:ease .3s;color:#006799!important;background-color:#f5f5f5}
+table.rsggds_table_contents thead.rsggds_sticy{width:100%;position:absolute;left:0;right:0;top:0;z-index:2;background:red}
+
+
+/*
+************************
+* R - PADDINGS
+************************
+*/
+    .rsg-padding_0_5{ padding: 0 5px; }
+    .rsg-padding_0_10{ padding: 0 10px; }
+    .rsg-padding_0_15{ padding: 0 15px; }
+    .rsg-padding_0_20{ padding: 0 20px; }
+    .rsg-padding_0_25{ padding: 0 25px; }
+    .rsg-padding_0_30{ padding: 0 30px; }
+
+    .rsg-padding_5_0{ padding: 5px 0; }
+    .rsg-padding_5_10{ padding: 5px 10px; }
+    .rsg-padding_5_20{ padding: 5px 20px; }
+    .rsg-padding_10_0{ padding: 10px 0; }
+    .rsg-padding_15_0{ padding: 15px 0; }
+    .rsg-padding_20_0{ padding: 20px 0; }
+    .rsg-padding_25_0{ padding: 25px 0; }
+    .rsg-padding_30_0{ padding: 30px 0; }
+
+    .rsg-padding_5{ padding: 5px; }
+    .rsg-padding_10{ padding: 10px; }
+    .rsg-padding_15{ padding: 15px; }
+    .rsg-padding_20{ padding: 20px; }
+    .rsg-padding_25{ padding: 25px; }
+    .rsg-padding_30{ padding: 30px; }
+/*
+************************
+* R - FONTS
+************************
+*/  
+    .rsg-big_title{
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0;
+    }
+    .rsg-reg_title{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+/*
+************************
+* R - BUTTONS
+************************
+*/
+    .rsg-button_main{
+        width: auto;
+        display: inline-block;
+        line-height: unset;
+        letter-spacing: unset;
+        outline: none!important; outline: unset !important;
+        text-align: center;
+        cursor: pointer;
+        min-width: 150px;
+        background-image: linear-gradient(rgb(45, 45, 45) 50%, rgb(255, 152, 0) 50%);
+        animation-delay: 0ms;
+        color: rgba(254,242,243,1);
+        border-width: 2px;
+        border-color: rgb(45, 45, 45);
+        -webkit-transition: all .3s linear;
+        -o-transition: .3s all linear;
+        transition: all .3s linear;
+        border-style: solid;
+        background-size: 100% 200%;
+        padding: 5px 25px;
+        margin: 0 !important;
+    }
+
+    .rsg-button_main:hover{
+        color: rgba(0,0,0,1);
+        border-color: rgba(0,0,0,1);
+        background-position: 0 -100%;
+        -webkit-transition: all .3s linear;
+        -o-transition: .3s all linear;
+        transition: all .3s linear;
+    }
+
+    .rsg-button_main.rsg-btn_white{
+        background-image: linear-gradient(rgb(255, 255, 255) 50%, rgb(255, 152, 0) 50%);
+        border-color: rgb(45, 45, 45);
+        color: rgb(45, 45, 45);
+    }
+
+/*
+************************
+* R - FORMS CONTENTS
+************************
+*/
+    .rsg-input,
+    .rsg-input_all input,
+    .rsg-form-select,
+    .rsg-form select,
+    .rsg-form-select-transparent-white{
+        width: 100%;
+        height: unset ;
+        line-height: unset;
+        padding:5px ;
+        border-radius:5px;
+    }
+    .rsg-strong_green,
+    .rsg-strong_green_all strong { color: #28a745; font-weight: 600;  }
+/*
+************************
+* R - MAIN CALLBACK FILE
+************************
+*/
+    .toplevel_page_rsg_addons_page{ background-color: #2b2b2b!important; color: #fff!important; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 13px; }
+    .toplevel_page_rsg_addons_page strong { color: #28a745;  }
+    .toplevel_page_rsg_addons_page .notice,
+    .toplevel_page_rsg_addons_page .gt-admin-notice{
+        display: none !important;
+    }
